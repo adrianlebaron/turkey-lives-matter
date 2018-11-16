@@ -1,5 +1,5 @@
 from flask import Flask, render_template
-from flash-heroku import Heroku
+from flask_heroku import Heroku
 
 app = Flask(__name__)
 heroku = Heroku(app)
