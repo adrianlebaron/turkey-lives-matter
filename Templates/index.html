@@ -12,6 +12,9 @@
     <link rel="stylesheet" href="../static/styles/media-queries.css">   
     <link rel="stylesheet" href="/static/styles/nav.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+
 
 </head>
 <style>
@@ -72,6 +75,35 @@ body {
     height: 150px;
     width: 150px;
 }
+.left-tile a {
+    color: white;
+    font-size: 100px;
+}
+.center-tile a {
+    color: white;
+    font-size: 100px;
+}
+.turkeyleft img {
+    margin-top: 30px;
+    margin-right: 65px;
+   height: 200px;
+   width: 200px;
+
+}
+
+.turkeyright img {
+    margin-top: 30px;
+    margin-left: 65px;
+   height: 200px;
+   width: 200px;
+    
+}
+.turkey-video {
+    display: flex;
+    justify-content: center;
+    
+    
+}
 </style>
 
 
@@ -81,10 +113,19 @@ body {
 </head>
 <body>
     <div class="heading-container">
+       
+        <div class= "turkeyleft">
+            <img src="/static/images/Logos/whiteturkeylogo.png" alt="">
+        </div>
+        
+        
         <div class="heading-wrapper">
             <h1>
             "EAT MORE OTHER STUFF"
             </h1>
+        </div> 
+        <div class="turkeyright">
+            <img src="/static/images/Logos/whiteturkeylogo.png" alt="">
         </div>
     </div>
     
@@ -105,21 +146,19 @@ body {
     <div class="tile-links">
         <div class="tile-wrapper">
             <div class="left-tile">
-                <img src="/static/images/cow.png" alt="">
+                <a href="/pageTwo"><i class="fas fa-utensils"></i> </a>
             </div>
             <div class="center-tile">
-                <img href= pageTwo.html src="/static/images/cow.png" alt="">
+                <a href="/pageThree"><i class="fas fa-envelope-square"></i></a>
             </div>
-            <div class="right-tile">
-                <img href= pageThree.html src="/static/images/cow.png" alt="">
-            </div>
+            
         </div>
     </div>
 <!-- video  -->
-    <div class="turkey-video-wrapper">
-       <div class="footer-wrapper">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/8jGOc0P5DEI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>     
+    <div class="turkey-video">
+       
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/8jGOc0P5DEI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
     </div>
     <div class="footer">
         <div class="logo-footer">
@@ -133,11 +172,11 @@ body {
             </div>
 
             <div class="nav-link">
-                <a href="about.html">Options</a>
+                <a href="/pageTwo.html">Options</a>
             </div>
             
             <div class="nav-link">
-                <a href="contact.html">Contact</a>
+                <a href="/pageThree.html">Contact</a>
             </div>
         </div>
 
