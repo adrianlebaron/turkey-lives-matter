@@ -1,0 +1,15 @@
+ /* common styles */
+body {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #b48049;
+}
+ 
+h1, h2, h3, h4, h5, h6 {
+        font-family: 'Coustard', serif;
+        justify-content: center;
+}
+
+
+
+
